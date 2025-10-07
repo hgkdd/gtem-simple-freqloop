@@ -26,7 +26,7 @@ class GTEM(Measure.Measure):
                      pin = None):
         
         def __datafunc(data):
-            return data
+            return data   # identity function
 
         if datafunc is None:
             self.datafunc = __datafunc
