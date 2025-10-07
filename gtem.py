@@ -109,7 +109,7 @@ if __name__ == '__main__':
                      'pm_fwd': 'pm1',
                      'pm_bwd': 'pm2',
                      'fp': ['fp1']}
-    SearchPaths = ['.', '/home/yuy/dev/MpyConfig/LargeGTEM']
+    SearchPaths = ['.', '~/dev/MpyConfig/LargeGTEM']
 
     gtem = GTEM()
     gtem.MeasureField(dotfile=dotfile,
